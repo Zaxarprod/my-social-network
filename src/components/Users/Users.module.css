@@ -1,0 +1,27 @@
+.content{
+	margin: 0;
+	height: 93vh;
+	padding: 0 0 0 0;
+	overflow-y: auto;
+	color: black;
+	text-align: center;
+}
+.main_block{
+	position: relative;;
+}
+.profile_photo{
+	width:20%;
+}
+.status{
+	position:absolute;
+	top: 1vw;
+	right:1vw;
+}
+.city{
+	position:absolute;
+	top: 3vw;
+	right:1vw;
+}
+.main_block>button{
+	margin-bottom: 2vw;
+}

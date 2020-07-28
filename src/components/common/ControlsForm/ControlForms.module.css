@@ -1,0 +1,22 @@
+
+.TextForm{
+	border: solid red 1px;
+}
+
+.errorFieldNull {
+	border: solid red 2px;
+	color:red;
+	width: 10vw;
+	height: 2vw;
+	text-align:center;
+	line-height: 2vw;
+}
+
+.commonError{
+	border: solid red 2px;
+	color:red;
+	width: 15vw;
+	height: 2vw;
+	text-align:center;
+	line-height: 2vw;
+}

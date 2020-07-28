@@ -1,0 +1,24 @@
+.header{
+  grid-area: h;
+  background-color: #080808;
+  position: fixed;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 7vh;
+}
+.block_login{
+	float:right;
+	text-align: center;
+	width: 10%;
+	line-height: 7vh;
+	cursor:pointer;
+}
+.block_login{
+	color: white;
+	text-decoration: none;
+}
+.block_login a{
+	color: white;
+	text-decoration: none;
+}

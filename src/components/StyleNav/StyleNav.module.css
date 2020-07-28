@@ -1,0 +1,45 @@
+.styleNav{
+	grid-area: sn;
+	background: blue;
+	z-index: 100;
+	height: 14vh;
+	display: grid;
+	width: 100%;
+	grid-template-areas: 
+	"one two"
+	"four main";
+	grid-template-rows: 7vh 7vh;
+	grid-template-columns: 1fr 1fr;
+}
+.one{
+	grid-area: one;
+	cursor: pointer;
+}
+.two{
+	grid-area: two;
+	cursor: pointer;
+}
+.main{
+	grid-area: main;
+	cursor: pointer;
+}
+.four{
+	grid-area: four;
+	cursor: pointer;
+}
+.color1{
+	background-color: #dcdbe1;
+	transition: all 1s linear;
+}
+.color2{
+	background-color: #f1f2f2;
+	transition: all 1s linear;
+}
+.color3{
+	background-color:  #080808;
+	transition: all 1s linear;
+}
+.color4{
+	background-color: white;
+	transition: all 1s linear;
+}

@@ -1,0 +1,22 @@
+.butt{
+	width:2vw;
+	height:2vw;
+  	background-repeat: no-repeat;
+  	background-size: 70% 70%;
+  	border: solid 2px black;
+  	background-position: center;
+	position: absolute;
+	top: 0;
+	right: 0.6vw;
+	transition: all 0.2s ease-out;
+}
+.butt_part{
+	background-image: url('./../common/images/FullScreen.png');
+}
+.butt_full{
+	background-image: url('./../common/images/PartScreen.png');
+}
+.butt:hover{
+	cursor:pointer;
+	background-size: 75% 75%;
+}
